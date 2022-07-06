@@ -26,37 +26,6 @@ export const Content = styled.div`
        margin: 24px;
        color: rgba(255, 144, 0, 1);
     }
-    input {
-        background: #ffffff;
-        border-radius: 10px;
-        border: 2 solid #ffffff;
-        padding: 16px;
-        width: 100%;
-        
-        &::placeholder {
-            color: #666360;
-        }
-        & + input {
-            margin-top: 8px;
-        }
-    }
-    button {
-        background: rgba(255, 144, 0, 1);
-        height: 56px;
-        border-radius: 10px;
-        border: 0;
-        padding: 0 166px;
-        color: rgba(255, 255, 255, 1);
-        width: 100%;
-        font-weight: 500;
-        margin-top: 16px;
-        transition: background-color 0.4;
-
-        &:hover {
-            background: ${shade(0.1, 'rgba(255, 144, 0, 1)')}
-        }
-
-    }
         a {
             color: rgba(255, 144, 0, 1);
             display: block;
@@ -82,7 +51,7 @@ export const Content = styled.div`
             margin-right: 16px;
         }
         &hover {
-            color: ${shade(0.2, 'rgba(255, 144, 0, 1)')};
+            color: ${shade(0.1, 'rgba(255, 144, 0, 1)')};
         }
 
     }

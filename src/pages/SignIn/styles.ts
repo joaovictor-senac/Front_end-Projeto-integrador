@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import signInBackground from '../../assets/login.png';
-import { shade} from "polished";
+import { shade } from "polished";
 
 export const Container = styled.div`
     height: 100vh;
@@ -33,11 +33,9 @@ export const Content = styled.div`
             background: #ffffff;
             border-radius: 10px;
             border: 2px solid #ffffff;
-            padding: 16px;
             width: 100%;
-            /*color: #f4ede8; */
 
-            &::placeholder{
+            &::placeholder {
                 color: #666360;
             }
 
@@ -56,10 +54,10 @@ export const Content = styled.div`
             width: 100%;
             font-weight: 500;
             margin-top: 16px;
-            transition: background-color 0.2s;
+            transition: background-color 0.2;
 
             &:hover {
-                background: ${shade(0.1, 'rgba(255, 144, 0, 1)')}
+                background: ${shade(0.1, 'rgba(255, 144, 0, 1)')};
             }
         }
 
